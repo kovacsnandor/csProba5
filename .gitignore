@@ -18,7 +18,7 @@ mono_crash.*
 
 # Build results
 # --------------
-!*[Dd]ebug/*.txt
+#!*[Dd]ebug/*.txt
 # --------------
 
 # [Dd]ebug/
