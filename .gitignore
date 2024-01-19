@@ -17,7 +17,11 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
+# --------------
+!*[Dd]ebug/*.txt
+# --------------
+
+# [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -27,13 +31,10 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
+#[Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-
-# Debug mappában engedjük a txt fájlokat
-!*bin/Debug/*.txt
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -81,6 +82,10 @@ StyleCopReport.xml
 *.iobj
 *.pch
 *.pdb
+# -----
+*.exe
+*.config
+# -----
 *.ipdb
 *.pgc
 *.pgd
